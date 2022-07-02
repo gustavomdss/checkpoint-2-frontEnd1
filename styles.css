@@ -114,5 +114,82 @@ html{
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    
 }
+
+body {
+
+    background-color: #202020;
+}
+
+.itens h1{
+    color: #e41414;
+    opacity: 60%;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.itens .viloes {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 30px;
+    text-align: justify;
+
+}
+
+.itens .viloes section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin: 30px;
+    text-align: justify;
+
+}
+
+.vilao {
+    background-color: #202020;
+    color: #d9d7d7;
+    width: 400px;
+    border-radius: 12px;
+    margin-top: 200px;
+    overflow: hidden;
+    position: relative;
+    }
+    
+    .vilao .foto {
+        width: 100%;
+        border-radius: 12px;
+        height: 250px;
+    
+    }
+
+    .vilao h1 {
+        color: #e41414;
+        font-size: 40px;
+
+    }
+
+    .vilao p {
+        color: #d9d7d7;
+    }
+
+    .vilao button {
+        width: 200px;
+        height: 50px;
+        background-color: #e41414;
+        color: #d9d7d7;
+        border: none;
+        font-family: inherit;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .vilao button a{
+        text-decoration: none;
+        color: #d9d7d7;
+    }
