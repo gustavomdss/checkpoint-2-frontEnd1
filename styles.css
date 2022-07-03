@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Arima&family=Titan+One&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -7,34 +8,40 @@
     list-style: none;
 
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-.main-header{
+
+.main-header {
     height: 100px;
     background-color: #000000cc;
     display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
     position: sticky;
     top: 0;
-    
+
 }
-.main-header img{
+
+.main-header img {
     width: 200px;
     height: 40px;
     margin-left: 20px;
 }
-.main-header .main-header-nav{
-  margin-right: 20px;
+
+.main-header .main-header-nav {
+    margin-right: 20px;
 }
-.main-header .main-header-nav ul{
+
+.main-header .main-header-nav ul {
     display: flex;
     /* gap: 50px; */
-    
-    
+
+
 }
-.main-header-nav li{
+
+.main-header-nav li {
     background-color: #f51a1a;
     width: 100px;
     height: 20px;
@@ -42,27 +49,32 @@ html{
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    
-    
+
+
 }
-.main-header-nav ul a{
+
+.main-header-nav ul a {
     text-decoration: none;
 }
-.main-header-nav ul a li{
+
+.main-header-nav ul a li {
     color: #14101094;
     font-family: 'Titan One', cursive;
-    font-size:12px;
-   
+    font-size: 12px;
+
 }
-.blood-icon{
+
+.blood-icon {
     display: flex;
     align-items: center;
 }
-.blood-icon img{
+
+.blood-icon img {
     width: 40px;
     height: 40px;
 }
-.first-section{
+
+.first-section {
     height: 100vh;
     background-image: url(./images/tumblr_n9oq7bWttv1r415sxo1_500.gif);
     background-repeat: no-repeat;
@@ -73,27 +85,31 @@ html{
     flex-direction: column;
     align-items: flex-end;
     justify-content: center;
-    
 
-    
+
+
 }
-.first-section article{
+
+.first-section article {
 
     width: 700px;
-    
+
 }
+
 .first-section article h2 {
     color: aliceblue;
     padding: 20px;
     font-size: 50px;
 }
-.first-section article h2 p{
+
+.first-section article h2 p {
     color: #f51a1a;
     text-align: justify;
     font-size: 20px;
-    
+
 }
-.button-banner{
+
+.button-banner {
     width: 320px;
     height: 70px;
     background-color: #f51a1aa8;
@@ -104,12 +120,14 @@ html{
     font-weight: 700;
     transition: 0.4s;
 }
-.button-banner:hover{
+
+.button-banner:hover {
     transform: scale(1.05);
     background-color: aliceblue;
     cursor: pointer;
 }
-.button-banner-flex{
+
+.button-banner-flex {
     width: 700px;
     display: flex;
     justify-content: center;
@@ -121,7 +139,7 @@ body {
     background-color: #202020;
 }
 
-.itens h1{
+.itens h1 {
     color: #e41414;
     opacity: 60%;
     text-align: center;
@@ -159,37 +177,104 @@ body {
     margin-top: 200px;
     overflow: hidden;
     position: relative;
-    }
+}
+
+.vilao .foto {
+    width: 100%;
+    border-radius: 12px;
+    height: 250px;
+
+}
+
+.vilao h1 {
+    color: #e41414;
+    font-size: 40px;
+
+}
+
+.vilao p {
+    color: #d9d7d7;
+}
+
+.vilao button {
+    width: 200px;
+    height: 50px;
+    background-color: #e41414;
+    color: #d9d7d7;
+    border: none;
+    font-family: inherit;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.vilao button a {
+    text-decoration: none;
+    color: #d9d7d7;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main-form {
+    width: 653px;
+    height: 550px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.main-form img {
+    width: 400px;
+    height: 90px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+}
+
+.main-form div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.main-form input {
+    border-radius: 5px;
+    border-color: #f0f1f1;
+    width: 500px;
+    height: 30px;
+}
+.main-form input::-webkit-input-placeholder{
+    padding-left: 10px;
+    color: rgb(247, 185, 185);
+}
+
+.main-form label {
+    font-family: 'Arima', cursive;
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.main-form a button {
+    width: 550px;
+    height: 60px;
+    border: none;
+    background-color: #dd5858;
+    border-radius: 5px;
+    margin-top: 80px;
+    font-family: 'Arima', cursive;
+    font-weight: 700;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.main-form a button:hover{
+    transform: scale(1.02);
+    background-color: #e48282;
+    cursor: pointer;
     
-    .vilao .foto {
-        width: 100%;
-        border-radius: 12px;
-        height: 250px;
-    
-    }
-
-    .vilao h1 {
-        color: #e41414;
-        font-size: 40px;
-
-    }
-
-    .vilao p {
-        color: #d9d7d7;
-    }
-
-    .vilao button {
-        width: 200px;
-        height: 50px;
-        background-color: #e41414;
-        color: #d9d7d7;
-        border: none;
-        font-family: inherit;
-        font-weight: bold;
-        cursor: pointer;
-    }
-
-    .vilao button a{
-        text-decoration: none;
-        color: #d9d7d7;
-    }
+}
