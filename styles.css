@@ -170,11 +170,14 @@ body {
 }
 
 .vilao {
-    background-color: #202020;
+    background-color: #292828;
     color: #d9d7d7;
     width: 400px;
     border-radius: 12px;
     margin-top: 200px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     overflow: hidden;
     position: relative;
 }
@@ -186,11 +189,16 @@ body {
 
 }
 
+.vilao .foto:hover{
+    transform: scale(1.05); 
+}
+
 .vilao h1 {
     color: #e41414;
     font-size: 40px;
 
 }
+
 
 .vilao p {
     color: #d9d7d7;
@@ -205,6 +213,11 @@ body {
     font-family: inherit;
     font-weight: bold;
     cursor: pointer;
+}
+
+.vilao button:hover{
+    transform: scale(1.05); 
+
 }
 
 .vilao button a {
