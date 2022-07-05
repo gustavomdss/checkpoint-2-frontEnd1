@@ -312,6 +312,9 @@ body {
     font-size: 15px;
     color: #df8080;
     margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
 }
 .main-footer section{
     display: flex;
