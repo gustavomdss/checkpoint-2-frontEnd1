@@ -175,8 +175,8 @@ body {
     width: 400px;
     border-radius: 12px;
     margin-top: 200px;
-    overflow: hidden;
-    position: relative;
+    
+    
 }
 
 .vilao .foto {
@@ -277,4 +277,35 @@ body {
     background-color: #e48282;
     cursor: pointer;
     
+}
+.main-footer{
+    height: 250px;
+    background-color: #221616;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.main-footer h3{
+    font-family: inherit;
+    font-size: 40px;
+    color: #ffffff;
+  
+    
+}
+.main-footer p{
+    font-family: inherit;
+    font-size: 15px;
+    color: #df8080;
+    margin-top: 10px;
+}
+.main-footer section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer-images{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px   ;
+    justify-content: center;
 }
