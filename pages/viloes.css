@@ -15,23 +15,23 @@ body {
 
     background-color: #202020;}
 
-div {
+.descricao {
     text-align: center;}
 
-h1{
+.descricao h1{
     color: #e41414;
     font-size: 50px;
     padding-top: 20px;
     padding-bottom: 50px;
 }
 
-img{
+.descricao img{
     width: 30%;
     border: thin solid;
     padding: 5px;
 }
 
-p{
+.descricao p{
     color: aliceblue;
     font-size: 20px;
     padding-top: 50px;
@@ -41,13 +41,40 @@ p{
     opacity: 60%;
 }
 
-h2{
+.descricao h2{
     color: #e41414;
     padding-bottom: 50px;
 }
 
-iframe{
+.descricao iframe{
     margin-bottom: 80px;
 }
-
+.main-footer-pages{
+    height: 250px;
+    background-color: #221616;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+.main-footer-pages h3{
+    font-family: inherit;
+    font-size: 40px;
+    color: #ffffff;
+    text-align: center;
+}
+.main-footer-pages .footer-text{
+    font-family: inherit;
+    font-size: 15px;
+    color: #df8080;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.main-footer-pages .footer-images-pages{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
 
