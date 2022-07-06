@@ -397,7 +397,7 @@ body {
     .first-section article h2 p{
         text-align: center ;
         font-size: 15px;
-        width: 300px;
+        width: 100vw;
     }
     .button-banner {
         width: 300px;
